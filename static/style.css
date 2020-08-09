@@ -17,7 +17,7 @@ h1{
 }
 
 h2{
- font-size:1.5rem;
+ font-size:1.6rem;
 }
 
 h3{
@@ -29,7 +29,7 @@ footer{
 }
 
 footer p{
-  margin: 0;
+  margin: 20px 0 20px 0;
 }
 
 
@@ -81,10 +81,29 @@ footer p{
 
 .feature .content{
   padding-top:10vh;
-  padding-bottom: 70vh;
+  padding-bottom: 45vh;
   height: 20vh;
   width: 70%;
   margin:0 auto;
+}
+
+.feature .content a{
+  padding: 0 5px 0 5px;
+}
+
+.feature .scroll-prompt{
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  height: 10vh;
+  padding-bottom: 15vh;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.feature .scroll-prompt:hover{
+  transform: translateY(10px);
 }
 
 
