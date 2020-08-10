@@ -24,6 +24,26 @@ h3{
   font-size: 1rem;
 }
 
+
+/* buttons */
+
+.btn{
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn__outline{
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.btn__outline:hover{
+  background-color: rgba(0, 0, 0, 0.562);
+  border-radius: 10px 30px;
+}
+
 footer{
   text-align: center;
 }
@@ -31,7 +51,6 @@ footer{
 footer p{
   margin: 20px 0 20px 0;
 }
-
 
 .section{
   display: block;
@@ -87,8 +106,9 @@ footer p{
   margin:0 auto;
 }
 
-.feature .content a{
+.social-link{
   padding: 0 5px 0 5px;
+  color:white;
 }
 
 .feature .scroll-prompt{
@@ -98,12 +118,11 @@ footer p{
   position: relative;
   height: 10vh;
   padding-bottom: 15vh;
-  transition-duration: 0.3s;
-  transition-property: transform;
+  transition: all 0.5s ease;
 }
 
 .feature .scroll-prompt:hover{
-  transform: translateY(10px);
+  transform: translateY(25px);
 }
 
 
