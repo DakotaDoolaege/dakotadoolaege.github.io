@@ -62,7 +62,7 @@ footer p{
 .background{
   background-repeat:no-repeat;
   background-size: cover;
-  background-position: center top;
+  background-position: bottom;
   position: absolute;
   display: block;
   width:100%;
@@ -75,14 +75,16 @@ footer p{
   position: relative;
   display: block;
   width:100%;
-  height: 550px;
+  height: 100vh;
   text-align: center;
+  background-color: rgba(0,0,0,50%);
 }
 
 .title{
-  position: absolute;
-  bottom: 5%;
-  width: 100%;
+  position: relative;
+  top: 75%;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .title h2{
@@ -104,6 +106,7 @@ footer p{
   height: 20vh;
   width: 70%;
   margin:0 auto;
+  background-color: transparent;
 }
 
 .social-link{
